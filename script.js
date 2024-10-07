@@ -7,7 +7,7 @@ mediaButton.onclick = function() {
 }
 
 function updateCountdown() {
-const endDate = new Date("May 10, 2024 12:00:00").getTime();
+const endDate = new Date("Dec 10, 2024 12:00:00").getTime();
 
 const now = new Date().getTime();
 const timeRemaining = endDate - now;
